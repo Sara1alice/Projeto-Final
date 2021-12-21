@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
+/*fonte para textos */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@450&family=Roboto+Slab:wght@300&display=swap');
+/*fonte para titulos*/
+*{
+   margin: 0;
+   padding: 0;
+}
+
+.box-grid{
+    width: 900px;
+    margin: 0 auto;
+   
+}
+body{
+    font-family: 'Roboto Slab', serif;
+    background-color: #F3F5F7;
+}
+.link-ativo{
+   text-decoration: none;
+   justify-content: space-around;
+   align-items:baseline;
+   display: flex;
+   list-style-type:none;
+   margin: 20px;
+  
+}
+.botao-inicio{
+ font-size: 30px;
+ text-decoration: none;
+ color:#045A6C;
+  
+}
+.display-ul{
+   display: flex;
+   width:100%;
+   justify-content: space-between;
+   align-items: center;
+   display: flex;
+   list-style-type:none;
+   font-family: 'Roboto Slab';
+   font-weight: 700;
+ 
+}
+
+.caixa-h2{
+   font-size: 30px;
+   font-family: 'Roboto Slab';
+   font-weight: 800;
+  margin: 25px;
+  line-height: 24px;
+ display: block;
+ color: #045A6C;
+ justify-content: center;
+ display: flex;
+}
+.caixa-paragrafo{
+   font-size:17px;
+   font-family: 'Roboto Slab';
+   font-weight:lighter;
+  margin: 15px;
+  line-height: 24px;
+ display: block;
+}
+
+
+/*info formulario*/
+#contato-section{
+   height: calc(100vh - 157px);
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+}
+
+#inputs-cima{
+   display: flex;
+   justify-content: space-between;
+   margin-top: 1.3em;
+}
+
+.input-contato{
+   display: flex;
+   flex-direction: column;
+   width: 47%;
+}
+
+.estilo-input{
+   padding: 10px;
+   border-radius: 5px;
+   border-style: solid;
+   border-color: #67A4B1;
+   background-color: #F3F5F7;
+   border-width: 2px;
+   font-size: 1.1em;
+  
+}
+
+.estilo-input::placeholder{
+   color: #D79AE9;
+}
+
+.estilo-input:focus{
+   outline: none;
+   border-color: #02161a;
+}
+
+#textarea-contato{
+   display: flex;
+   flex-direction: column;
+   width: 100%;
+   margin-top: 4%;
+}
+
+
+
+#form-contato{
+   height: 65%;
+   display: flex;
+   flex-direction: column;
+   /* justify-content: space-around; */
+}
+
+label{
+   margin-bottom: 10px;
+   color: #045A6C;
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+#botao-contato{
+   margin-top: 8%;
+   width: 30%;
+   padding: 15px;
+   /* height: 10%; */
+   font-size: 1.1em;
+   font-family: 'Roboto Slab', serif;
+
+   border: none;
+   border-radius: 5px;
+   background: linear-gradient(90deg, #67A4B1 0%, #045A6C 100%);
+   color: #F3F5F7;
+   opacity: 0.7;
+   margin-bottom: 3em;
+}
+
+#botao-contato:hover{
+   cursor: pointer;
+   opacity: 1;
+}
+
+
+
+
+
+
+
+footer{
+   text-align: center;
+   display: flex;
+   background-color: #C3D7DB;
+      justify-content: space-around;
+   }
+   .texto-footer{
+      font-size: 15px;
+      display: block;
+      align-items: flex-end;
+      margin-top: 20px;
+      margin-bottom: 10px;
+   }
+   .img-footer{
+      display: block;
+      align-items: flex-end;
+   }
+.font-icons{
+  font-size: 25px;
+  display: block;
+  align-items: flex-end;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.font-icons a{
+   text-decoration:none;
+   color: #02161a;
+ }
